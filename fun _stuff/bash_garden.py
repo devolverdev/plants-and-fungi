@@ -11,7 +11,7 @@ plants = [
     Fore.YELLOW + "🌼",
     Fore.MAGENTA + "🌸",
     Fore.RED + "🌹",
-    Fore.CYAN + "🌾"
+    Fore.CYAN + "🌾",
 ]
 
 print("🌿 Planting seeds...\n")

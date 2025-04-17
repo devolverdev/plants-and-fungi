@@ -1,5 +1,6 @@
 import turtle
 
+
 def draw_flower(t, petals, size):
     if petals == 0:
         return
@@ -8,6 +9,7 @@ def draw_flower(t, petals, size):
         t.left(120)
     t.right(360 / petals)
     draw_flower(t, petals - 1, size)
+
 
 t = turtle.Turtle()
 t.color("magenta")

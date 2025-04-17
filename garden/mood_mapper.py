@@ -3,8 +3,9 @@ mood_map = {
     "tired": "reishi",
     "sad": "mint",
     "foggy": "rosemary",
-    "low energy": "cordyceps"
+    "low energy": "cordyceps",
 }
+
 
 def suggest_remedy(mood: str) -> str:
     """Return a plant/fungi suggestion for a given mood."""

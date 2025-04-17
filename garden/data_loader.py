@@ -3,6 +3,7 @@
 import json
 import os
 
+
 def load_data(filename):
     """Load JSON data from the data/ folder."""
     path = os.path.join("data", filename)

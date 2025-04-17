@@ -1,0 +1,15 @@
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.
+ERROR:root:❌ File not found: data/does_not_exist.json
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.
+ERROR:root:❌ File not found: data/does_not_exist.json
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.
+INFO:root:✅ Loaded data/plants.json successfully.
+ERROR:root:❌ Plant 'lavander' not found in codex.
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.

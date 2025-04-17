@@ -13,7 +13,7 @@ runes = {
     "ᛃ": "Jera – Harvest, reward",
     "ᛇ": "Eiwaz – Transformation, death/rebirth",
     "ᛉ": "Algiz – Protection, sanctuary",
-    "ᛟ": "Othala – Heritage, ancestry"
+    "ᛟ": "Othala – Heritage, ancestry",
 }
 
 # Setup turtle
@@ -26,6 +26,7 @@ pen.hideturtle()
 pen.speed(0)
 pen.color("white")
 
+
 def draw_rune(rune, meaning):
     pen.clear()
     pen.penup()
@@ -33,6 +34,7 @@ def draw_rune(rune, meaning):
     pen.write(rune, align="center", font=("Courier", 120, "bold"))
     pen.goto(0, -100)
     pen.write(meaning, align="center", font=("Courier", 16, "italic"))
+
 
 # Draw border
 def draw_circle_frame():
@@ -44,6 +46,7 @@ def draw_circle_frame():
     frame.pendown()
     frame.circle(250)
     frame.hideturtle()
+
 
 draw_circle_frame()
 time.sleep(1)

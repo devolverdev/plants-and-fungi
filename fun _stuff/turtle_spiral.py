@@ -2,7 +2,7 @@
 
 import turtle
 import colorsys
- 
+
 
 t = turtle.Turtle()
 
@@ -25,6 +25,4 @@ for i in range(360):
 turtle.done()
 
 
-
 ####
-

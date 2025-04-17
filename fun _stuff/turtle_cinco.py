@@ -1,10 +1,11 @@
 import turtle
 
+
 def draw_attractive_design5():
     colors = ["red", "orange", "yellow", "green", "blue", "purple"]
     pen = turtle.Turtle()
     pen.speed(10)
-    turtle.bgcolor("black")  
+    turtle.bgcolor("black")
     pen.pensize(2)
 
     initial_size = 100
