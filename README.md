@@ -71,10 +71,4 @@
 ---
 
 
-## 💬 Mood Remapping Logic
-
-You created a system to map feelings like `"tired"` or `"anxious"` to plants like `"lavender"` or fungi like `"reishi"` — and even wrote error fallback messages for unknown ones:
-
-```python
-def suggest_remedy(mood):
-    return mood_map.get(mood.lower(), "🌒 No match found in your codex.")
+ 
