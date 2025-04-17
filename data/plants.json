@@ -1,0 +1,34 @@
+{
+  "lavender": {
+    "uses": "sleep, anxiety",
+    "element": "air"
+  },
+  "mint": {
+    "uses": "digestion, clarity",
+    "element": "water"
+  },
+  "rosemary": {
+    "uses": "memory, protection",
+    "element": "fire"
+  },
+  "chamomile": {
+    "uses": "calm, stomach relief",
+    "element": "water"
+  },
+  "basil": {
+    "uses": "focus, abundance",
+    "element": "fire"
+  },
+  "sage": {
+    "uses": "cleansing, wisdom",
+    "element": "air"
+  },
+  "lemon balm": {
+    "uses": "joy, calm",
+    "element": "air"
+  },
+  "thyme": {
+    "uses": "courage, immunity",
+    "element": "earth"
+  }
+}

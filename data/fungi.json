@@ -1,0 +1,27 @@
+{
+    "reishi": {
+      "uses": "immunity, longevity",
+      "element": "earth"
+    },
+    "cordyceps": {
+      "uses": "energy, stamina",
+      "element": "fire"
+    },
+    "lion's mane": {
+      "uses": "focus, nerve health",
+      "element": "air"
+    },
+    "chaga": {
+      "uses": "antioxidants, grounding",
+      "element": "earth"
+    },
+    "turkey tail": {
+      "uses": "gut health, resilience",
+      "element": "water"
+    },
+    "shiitake": {
+      "uses": "heart health, vitality",
+      "element": "earth"
+    }
+  }
+  
