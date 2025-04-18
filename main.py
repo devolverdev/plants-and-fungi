@@ -1,27 +1,27 @@
-# main.py
-
+from garden.data_loader import load_data
+from garden.mood_mapper import suggest_remedy, MoodNotFound
 from garden.utils import load_json
-from garden.mood_mapper import suggest_remedy
-from garden.plant_lookup import find_plant
+import logging
 
-plant_name = input("🌿 Which plant would you like to look up? ")
-info = find_plant(plant_name)
-print(info)
+logging.basicConfig(filename="logs.txt", level=logging.INFO)
 
-# Load plants and fungi JSON safely
-plants = load_json("data/plants.json")
-fungi = load_json("data/fungi.json")
+# Load codex data
+plants = load_data("plants.json")
+fungi = load_data("fungi.json")
 
-# Ask the user for their mood
-mood = input("💭 How are you feeling? ").lower()
-remedy = suggest_remedy(mood)
+# Ask user
+mood = input("💭 How are you feeling? ")
 
-# Show results
-print("🌿 Suggested remedy:", remedy)
-print("🌿 Loaded Plants:", plants)
-print("🍄 Loaded Fungi:", fungi)
+try:
+    remedy = suggest_remedy(mood)
+    print("🌿 Suggested remedy:", remedy)
+except MoodNotFound as e:
+    print("⚠️", e)
+    remedy = None
 
-# Optional: Try loading a missing file to test error handling
-# missing = load_json("data/does_not_exist.json")
+# Show full codex
+print("🌿 Loaded Plants:")
+print(plants)
 
-print("✅ Program finished without crashing.")
+print("🍄 Loaded Fungi:")
+print(fungi)

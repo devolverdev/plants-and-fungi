@@ -13,3 +13,11 @@ INFO:root:✅ Loaded data/fungi.json successfully.
 INFO:root:✅ Loaded data/plants.json successfully.
 INFO:root:✅ Loaded data/plants.json successfully.
 INFO:root:✅ Loaded data/fungi.json successfully.
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.
+INFO:root:✅ Loaded data/plants.json successfully.
+INFO:root:✅ Loaded data/fungi.json successfully.
+WARNING:root:⚠️ Mood not found in map: meh

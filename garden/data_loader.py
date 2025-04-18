@@ -1,18 +1,15 @@
-# garden/data_loader.py
-
 import json
-import os
-
+import logging
 
 def load_data(filename):
-    """Load JSON data from the data/ folder."""
-    path = os.path.join("data", filename)
     try:
-        with open(path, "r", encoding="utf-8") as file:
-            return json.load(file)
+        with open(f"data/{filename}") as f:
+            data = json.load(f)
+            logging.info(f"✅ Loaded data/{filename} successfully.")
+            return data
     except FileNotFoundError:
-        print(f"❌ File '{filename}' not found in /data/")
+        logging.error(f"❌ File not found: data/{filename}")
         return {}
     except json.JSONDecodeError:
-        print(f"⚠️ File '{filename}' is not valid JSON.")
+        logging.error(f"❌ Failed to decode JSON: data/{filename}")
         return {}
