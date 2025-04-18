@@ -5,6 +5,6 @@ def show_errors(filename="logs.txt"):
             if "ERROR" in line or "❌" in line:
                 print(line.strip())
 
+
 if __name__ == "__main__":
     show_errors()
-

@@ -5,6 +5,7 @@ from garden.utils import load_json
 
 plants = load_json("data/plants.json")
 
+
 def find_plant(name):
     try:
         plant = plants[name.lower()]

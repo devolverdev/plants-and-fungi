@@ -1,6 +1,7 @@
 import json
 import logging
 
+
 def load_data(filename):
     try:
         with open(f"data/{filename}") as f:

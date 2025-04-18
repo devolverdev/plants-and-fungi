@@ -1,10 +1,11 @@
 import logging
 
+
 class MoodNotFound(Exception):
     pass
 
+
 mood_map = {
-    
     # Emotional
     "anxious": "lavender",
     "tired": "reishi",
@@ -12,7 +13,6 @@ mood_map = {
     "lonely": "chamomile",
     "angry": "passionflower",
     "grieving": "hawthorn",
-
     # Mental
     "distracted": "rosemary",
     "foggy": "sage",
@@ -20,21 +20,19 @@ mood_map = {
     "creative": "basil",
     "focused": "ginkgo",
     "insecure": "calendula",
-
     # Physical
     "sore": "turmeric",
     "digestive": "mint",
     "headache": "feverfew",
     "tense": "valerian",
     "congested": "eucalyptus",
-
     # Spiritual
     "unbalanced": "mugwort",
     "blocked": "blue lotus",
     "open": "lotus",
     "grounded": "myrrh",
     "uplifted": "lemon balm",
-    "lost": "yarrow"
+    "lost": "yarrow",
 }
 
 
